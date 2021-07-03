@@ -32,13 +32,13 @@ to be tracked, and then apply the Extended Kalman Filter to track the objects ba
 
 ---
 
-<<<<<<< HEAD
+
 
 ## Code & Files
 ### 1. Dependencies & environment
 =======
 Note that the programs that is written to accomplish the project are in the src folder 
->>>>>>> faf267773b7e0fc97dd39313fc98049e251e47a8
+
 
 * cmake >= 3.5
  * All OSes: [click here for installation instructions](https://cmake.org/install/)
@@ -136,7 +136,7 @@ from the sensor measurements, and provide the robust estimations of the tracked 
 
 ### 2. How does LIDAR measurement look like
 
-![][image4]
+![][./Extended-Kalman-Filter/data/lidar.jpg]
 
 The LIDAR will produce 3D measurement px,py,pz. But for the case of driving on the road, we could simplify the pose of 
 the tracked object as: px,py,and one rotation. In other words, we could only use px and px to indicate the position of 
