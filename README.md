@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# **Object Tracking with Sensor Fusion-based Extended Kalman Filter**
-=======
+
 # Extended Kalman Filter Project 
 
 
@@ -14,7 +12,7 @@ tracking with the Extended Kalman Filter.
 [![gif_demo1][both_gif]]: ./Extended-Kalman-Filter/data/both_lidar_radar.gif
 
 <p align="center">
- <a href="https://youtu.be/aiDin-jGEQI"><img src="./readimg/project.gif" alt="Overview" width="50%" height="50%"></a>
+ <a href="https://youtu.be/aiDin-jGEQI"><img src="./Extended-Kalman-Filter/data/both_lidar_radar.gif" alt="Overview" width="50%" height="50%"></a>
  <br>Qualitative results. (click for full video)
 </p>
 
