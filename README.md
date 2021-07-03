@@ -146,8 +146,7 @@ you have to consider z axis as well. Also in application like airplane and drone
 
 
 ### 3. How does RADAR measurement look like
-
-![][image5]
+![Screenshot](./Extended-Kalman-Filter/data/radar.jpg)
 
 ### 4. Comparison of LIDAR, RADAR and Camera
 
@@ -166,21 +165,17 @@ you have to consider z axis as well. Also in application like airplane and drone
 * LIDAR most affected by dirt and small debris.
 
 
-One comparison Figure from _**another aspect**_.
-
-![][image6]
-
 
 ### 5. How does the Extended Kalman Filter Work
 
 
-![][image2]
+![Screenshot](./Extended-Kalman-Filter/data/ekf_flow.jpg)
 
 
 ### 4. Extended Kalman Filter V.S. Kalman Filter
 
 
-![][image3]
+![Screenshot](./Extended-Kalman-Filter/data/ekf_vs_kf.jpg)
 
 
 * _x_ is the mean state vector.
@@ -204,12 +199,12 @@ One comparison Figure from _**another aspect**_.
 * _K_ is the Kalman filter gain.
 * _Hj_ and _Fj_ are the jacobian matrix.
 
-<<<<<<< HEAD
+
 **For EKF**
 * To calculate innovation _y_, the measurement function _h(x')_ is used instead of the _H_ matrix.
 * The _H_ matrix in the Kalman filter will be replaced by the _Hj_(Jacobian matrix of _h(x')_)when calculating _S_, _K_, and _P_.
 =======
->>>>>>> faf267773b7e0fc97dd39313fc98049e251e47a8
+
 
 
 **All Kalman filters have the same three steps:**
@@ -218,18 +213,5 @@ One comparison Figure from _**another aspect**_.
 2. Prediction
 3. Update
 
-A **standard Kalman filter** can only handle linear equations. Both the **Extended Kalman Filter** (EKF) and the **Unscented Kalman Filter** (UKF will be disuccsed in the next project) allow you to use non-linear equations; the difference between EKF and UKF is how they handle non-linear equations: Extended Kalman Filter uses the Jacobian matrix to linearize non-linear functions; Unscented Kalman Filter, on the other hand, does not need to linearize non-linear functions, insteadly, the unscented Kalman filter takes representative points from a Gaussian distribution. 
 
 
-
-
-[//]: # (Image References)
-[image1]: ./data/ekf_combine.png
-[image2]: ./data/ekf_flow.jpg
-[image3]: ./data/ekf_vs_kf.jpg
-[image4]: ./data/lidar.jpg
-[image5]: ./data/radar.jpg
-[image6]: ./data/camera-vs-radar-vs-lidar_1.png
-[radar_gif]: ./data/radar.gif
-[lidar_gif]: ./data/lidar.gif
-[both_gif]: ./data/both_lidar_radar.gif
