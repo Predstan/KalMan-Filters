@@ -136,8 +136,8 @@ from the sensor measurements, and provide the robust estimations of the tracked 
 
 ### 2. How does LIDAR measurement look like
 
-![][./Extended-Kalman-Filter/data/lidar.jpg]
 
+![Screenshot](./Extended-Kalman-Filter/data/lidar.jpg)
 The LIDAR will produce 3D measurement px,py,pz. But for the case of driving on the road, we could simplify the pose of 
 the tracked object as: px,py,and one rotation. In other words, we could only use px and px to indicate the position of 
 the object, and one rotation to indicate the orientation of the object. But in real world where you have very steep road, 
