@@ -10,7 +10,7 @@ tracking with the Extended Kalman Filter.
 
 ### **Demo: Object tracking with both LIDAR and RADAR measurements**
 
-[![gif_demo1][both_gif]]: ./Extended-Kalman-Filter/data/both_lidar_radar.gif
+[![gif_demo1][both_gif]]: Extended-Kalman-Filter/data/both_lidar_radar.gif
 
 
 In this demo, the blue car is the object to be tracked, but the tracked object can be any types, e.g. 
