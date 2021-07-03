@@ -18,9 +18,6 @@ pedestrian, vehicles, or other moving objects. We continuously got both LIDAR (*
 measurements of the car's location in the defined coordinate, but there might be noise and errors 
 in the data. Also, we need to find a way to fuse the two types of sensor measurements to estimate 
 the proper location of the tracked object.
-=======
-Once the install for uWebSocketIO is complete, the main program can be built and run by doing the following from the project top directory(Extended Kalman Filter).
-a8
 
 Therefore, we use Extended Kalman Filter to compute the estimated location (**green triangle**) of the blue car. 
 The estimated trajectory (**green triangle**) is compared with the ground true trajectory of the blue car, and 
