@@ -91,16 +91,23 @@ and if you are viewing it in "github.io" you can be redirected by clicking the *
 ### **Demo 1: Tracking with both LIDAR and RADAR measurements**
 In this demo, both LIDAR and RADAR measurements are used for object tracking.
 
-[![gif_demo1][both_gif]]: ./Extended-Kalman-Filter/data/both_lidar_radar.gif
+<p align="center">
+ <a href=""><img src="./Extended-Kalman-Filter/data/both_lidar_radar.gif" alt="both_lidar_radar" width="50%" height="50%"></a>
+ <br>Qualitative results. (click for full video)
+</p>
 
 
- 
+
 
 ### **Demo 2: Tracking with only LIDAR measurements**
 
 In this demo, only LIDAR measurements are used for the object tracking. 
  
-![gif_demo2][lidar_gif]
+<p align="center">
+ <a href=""><img src="./Extended-Kalman-Filter/data/lidar.gif" alt="lidar" width="50%" height="50%"></a>
+ <br>Qualitative results. (click for full video)
+</p>
+
 
 
 
@@ -109,7 +116,11 @@ In this demo, only LIDAR measurements are used for the object tracking.
 In this demo, only RADAR measurements are used for the object tracking.
 are more noisy than the LIDAR measurements.
 
-![gif_demo3][radar_gif]
+
+<p align="center">
+ <a href=""><img src="./Extended-Kalman-Filter/data/radar.gif" alt="radar" width="50%" height="50%"></a>
+ <br>Qualitative results. (click for full video)
+</p>
 
 
 
