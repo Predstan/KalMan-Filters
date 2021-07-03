@@ -12,7 +12,7 @@ tracking with the Extended Kalman Filter.
 
 [![gif_demo1][both_gif]]: ./Extended-Kalman-Filter/data/both_lidar_radar.gif
 
-<<<<<<< HEAD
+
 In this demo, the blue car is the object to be tracked, but the tracked object can be any types, e.g. 
 pedestrian, vehicles, or other moving objects. We continuously got both LIDAR (**red circle**) and RADAR (**blue circle**) 
 measurements of the car's location in the defined coordinate, but there might be noise and errors 
@@ -20,7 +20,7 @@ in the data. Also, we need to find a way to fuse the two types of sensor measure
 the proper location of the tracked object.
 =======
 Once the install for uWebSocketIO is complete, the main program can be built and run by doing the following from the project top directory(Extended Kalman Filter).
->>>>>>> faf267773b7e0fc97dd39313fc98049e251e47a8
+a8
 
 Therefore, we use Extended Kalman Filter to compute the estimated location (**green triangle**) of the blue car. 
 The estimated trajectory (**green triangle**) is compared with the ground true trajectory of the blue car, and 
