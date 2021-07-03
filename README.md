@@ -7,7 +7,7 @@ This project involves the Term 2 Simulator which can be downloaded [here](https:
 
 This repository includes two files that can be used to set up and install [uWebSocketIO](https://github.com/uWebSockets/uWebSockets) for either Linux or Mac systems. For windows you can use either Docker, VMware, or even [Windows 10 Bash on Ubuntu](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) to install uWebSocketIO. Please see the uWebSocketIO Starter Guide page in the classroom within the EKF Project lesson for the required version and installation scripts.
 
-Once the install for uWebSocketIO is complete, the main program can be built and run by doing the following from the project top directory.
+Once the install for uWebSocketIO is complete, the main program can be built and run by doing the following from the project top directory(Extended Kalman Filter).
 
 1. mkdir build
 2. cd build
@@ -17,8 +17,7 @@ Once the install for uWebSocketIO is complete, the main program can be built and
 
 
 
-Note that the programs that need to be written to accomplish the project are src/FusionEKF.cpp, src/FusionEKF.h, kalman_filter.cpp, kalman_filter.h, tools.cpp, and tools.h
-
+Note that the programs that is written to accomplish the project are in the src folder 
 
 
 Here is the main protocol that main.cpp uses for uWebSocketIO in communicating with the simulator.
@@ -70,9 +69,7 @@ using the following settings:
 * indent using spaces
 * set tab width to 2 spaces (keeps the matrices in source code aligned)
 
-## Code Style
 
-Please (do your best to) stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
 
 ## Generating Additional Data
 
